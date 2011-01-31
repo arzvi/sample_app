@@ -1,10 +1,13 @@
-1296491647
+1296515302
 Application	/home/arzvi/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/arzvi/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/arzvi/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+PagesController	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	/home/arzvi/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/arzvi/rails_projects/sample_app/config/application.rb	module SampleApp
 Str	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function Type(o)
+about	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
 abs	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function abs()
 absolutize	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function addMethods(source)
@@ -27,6 +30,7 @@ clone	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	func
 collect	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function collect(iterator, context)
 compact	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function compact()
 concat	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function concat()
+contact	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 create	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
@@ -65,6 +69,7 @@ fireContentLoadedEvent	/home/arzvi/rails_projects/sample_app/public/javascripts/
 first	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function first()
 flatten	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function floor()
+full_title	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def full_title 
 get	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function get(key)
 getDimensions	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function getDimensions(element)
 getLayout	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function getLayout(element, preCompute)
@@ -75,6 +80,7 @@ grep	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	funct
 gsub	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/arzvi/rails_projects/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/arzvi/rails_projects/sample_app/public/javascripts/rails.js	function handleRemote(element)
+home	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function include(object)
 include	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function include(pattern)
