@@ -16,8 +16,9 @@ class PagesController < ApplicationController
     @full_title= @@head_title + " | " + @title
     
   end
-  def full_title 
-    @full_title= @@head_title + " | " + @title
+  
+  def help
+    @title = "Help"
   end
   
 end

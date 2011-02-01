@@ -1,4 +1,4 @@
-1296515302
+1296520017
 Application	/home/arzvi/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/arzvi/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/arzvi/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -69,7 +69,6 @@ fireContentLoadedEvent	/home/arzvi/rails_projects/sample_app/public/javascripts/
 first	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function first()
 flatten	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function flatten()
 floor	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function floor()
-full_title	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def full_title 
 get	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function get(key)
 getDimensions	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function getDimensions(element)
 getLayout	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function getLayout(element, preCompute)
@@ -80,6 +79,7 @@ grep	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	funct
 gsub	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/arzvi/rails_projects/sample_app/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/arzvi/rails_projects/sample_app/public/javascripts/rails.js	function handleRemote(element)
+help	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/home/arzvi/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
 inGroupsOf	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	/home/arzvi/rails_projects/sample_app/public/javascripts/prototype.js	function include(object)
