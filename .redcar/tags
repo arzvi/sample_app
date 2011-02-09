@@ -1,18 +1,8 @@
-1296865787
+1296869579
 ApplicationHelper	/Users/arunz/projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 PagesController	/Users/arunz/projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
-User	/Users/arunz/projects/sample_app/example_user.rb	class User
-User	/Users/arunz/projects/sample_app/users.rb	class User
 about	/Users/arunz/projects/sample_app/app/controllers/pages_controller.rb	  def about
 contact	/Users/arunz/projects/sample_app/app/controllers/pages_controller.rb	  def contact
-email	/Users/arunz/projects/sample_app/example_user.rb	  attr_accessor :name, :email
-email	/Users/arunz/projects/sample_app/users.rb	  attr_accessor :name, :email
-formated_email	/Users/arunz/projects/sample_app/example_user.rb	  def formated_email
-formated_email	/Users/arunz/projects/sample_app/users.rb	  def formated_email
 help	/Users/arunz/projects/sample_app/app/controllers/pages_controller.rb	  def help
 home	/Users/arunz/projects/sample_app/app/controllers/pages_controller.rb	  def home
-initialize	/Users/arunz/projects/sample_app/example_user.rb	  def initialize
-initialize	/Users/arunz/projects/sample_app/users.rb	  def initialize
-name	/Users/arunz/projects/sample_app/example_user.rb	  attr_accessor :name, :email
-name	/Users/arunz/projects/sample_app/users.rb	  attr_accessor :name, :email
 title	/Users/arunz/projects/sample_app/app/helpers/application_helper.rb	  def title
