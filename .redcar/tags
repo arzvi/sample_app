@@ -1,4 +1,4 @@
-1298461919
+1298762372
 AddEmailUniquenessIndex	/Users/arunz/projects/sample_app/db/migrate/20110221222750_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/Users/arunz/projects/sample_app/db/migrate/20110222220131_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/Users/arunz/projects/sample_app/db/migrate/20110223102742_add_salt_to_users.rb	class AddSaltToUsers 
