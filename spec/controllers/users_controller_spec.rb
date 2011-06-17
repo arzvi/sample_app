@@ -31,6 +31,22 @@ describe UsersController do
       assigns(:user).should == @user   #assigns - provided by rspec via underlying Test::Unit library
     end
     
+    it "should have correct tite" do 
+      get :show, :id => @user
+      response.should have_selector("title", :content => @user.name )
+      
+    end
+    
+    it "should have user's name" do 
+      get :show, :id => @user
+      response.should have_selector("title", :content => @user.name )
+    end
+    
+    it "should have a profile image" do 
+      get :show, :id => @user
+      response.should have_selector("h1>img", :class=> "gravatar") # to show that the image tag is under the h1 tag, and it contains the class as gravatar
+    end
+    
   end
 
 end

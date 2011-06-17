@@ -102,6 +102,7 @@ describe User do
       
       it "should return nil if user not found" do 
         nonexistant_user = User.authenticate("bar@foo.com",@attr[:password])
+        nonexistant_user.should be_nil
       end
       
       it "should return user object on success" do
