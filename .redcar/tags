@@ -1,4 +1,4 @@
-1308346789
+1308690754
 AddEmailUniquenessIndex	/home/virtualrails/projects/sample_app/db/migrate/20110221222750_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/home/virtualrails/projects/sample_app/db/migrate/20110222220131_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/home/virtualrails/projects/sample_app/db/migrate/20110223102742_add_salt_to_users.rb	class AddSaltToUsers 
@@ -40,6 +40,7 @@ compact	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	f
 concat	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function concat()
 contact	/home/virtualrails/projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/home/virtualrails/projects/sample_app/app/controllers/users_controller.rb	  def create
 create	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function cumulativeOffset(element)
