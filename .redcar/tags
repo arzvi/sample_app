@@ -1,4 +1,4 @@
-1309191334
+1309209703
 AddEmailUniquenessIndex	/home/virtualrails/projects/sample_app/db/migrate/20110221222750_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	/home/virtualrails/projects/sample_app/db/migrate/20110222220131_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	/home/virtualrails/projects/sample_app/db/migrate/20110223102742_add_salt_to_users.rb	class AddSaltToUsers 
@@ -9,6 +9,8 @@ CreateUsers	/home/virtualrails/projects/sample_app/db/migrate/20110221170810_cre
 PagesController	/home/virtualrails/projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	/home/virtualrails/projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/home/virtualrails/projects/sample_app/config/application.rb	module SampleApp
+SessionsController	/home/virtualrails/projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/home/virtualrails/projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Str	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function Str(key, holder, stack)
 Type	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function Type(o)
 User	/home/virtualrails/projects/sample_app/app/models/user.rb	class User 
@@ -40,6 +42,7 @@ compact	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	f
 concat	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function concat()
 contact	/home/virtualrails/projects/sample_app/app/controllers/pages_controller.rb	  def contact
 copy	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	/home/virtualrails/projects/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/home/virtualrails/projects/sample_app/app/controllers/users_controller.rb	  def create
 create	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function create()
 cssNameFor	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function cssNameFor(key)
@@ -50,6 +53,7 @@ dasherize	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js
 defer	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function defer()
 define	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function define(D)
 delay	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function delay(timeout)
+destroy	/home/virtualrails/projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
 detect	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
@@ -147,6 +151,7 @@ merge	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	fun
 merge	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function merge(object)
 methodize	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function methodize()
 min	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function min(iterator, context)
+new	/home/virtualrails/projects/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/virtualrails/projects/sample_app/app/controllers/users_controller.rb	  def new
 observe	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/home/virtualrails/projects/sample_app/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
