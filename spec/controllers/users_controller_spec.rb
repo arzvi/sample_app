@@ -13,6 +13,16 @@ describe UsersController do
       get 'new'
       response.should have_selector('title',:content => "Sign up") 
     end
+    
+    it "should have name field" do 
+      get 'new'
+      response.should have_selector("input[name='user[name]'][type='text']")
+    end
+    
+    it "should have password field" do 
+      get'new'
+      response.should have_selector("input[name='user[password]'][type='password'][size='30']")
+    end
   end
   
   describe "GET 'show'" do
@@ -75,21 +85,24 @@ describe UsersController do
     
     describe "success" do 
       before(:each) do
-        @attr= { :name => "Arun Srini", :email => "arunrocks@gmail.com", :password=>"foo",
-          :password_confirmation => "foo"}
+        @attr= { :name => "Arun Srini", :email => "arunrocks@gmail.com", :password=>"foobar",
+          :password_confirmation => "foobar"}
       end
       
       it "should create an user" do
         lambda do 
           post :create, :user => @attr
-        end.should change(:user.count).by(1)
+        end.should change(User, :count).by(1)
       end
       
       it "should redirect to user show page" do
         post :create, :user => @attr
         response.should redirect_to(user_path(assigns(:user)))
       end
-      
+      it "should have welcome message" do 
+        post :create, :user => @attr
+        flash[:success].should =~ /welcome to sample app/i
+      end
       
     end
   end
